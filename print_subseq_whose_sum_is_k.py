@@ -5,9 +5,7 @@ def fun(ind=0,a=[],s=0):
     if(ind>=n):
         if(s==k):
             print(a)
-            return
-        else:
-            return
+        return
     a.append(arr[ind])
     fun(ind+1,a,s+arr[ind])
     a.pop()
